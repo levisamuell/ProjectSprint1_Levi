@@ -1,0 +1,100 @@
+/* Prompt: Create a header with space between title and nav links */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: #1f2937;
+  color: white;
+}
+
+/* Prompt: Style nav links with hover and spacing */
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #facc15;
+}
+
+/* Prompt: Center hero content using Flexbox */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 60vh;
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+  padding: 2rem;
+}
+
+/* Prompt: Add hover animation to hero button */
+.hero button {
+  padding: 12px 24px;
+  background-color: #facc15;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+  background-color: #eab308;
+}
+
+/* Prompt: Make product cards responsive using CSS grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 10%;
+  background-color: #f9fafb;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Prompt: Style buttons in product cards */
+.product-card button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #2563eb;
+}
+
+/* Prompt: Center and style footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1f2937;
+  color: #f3f4f6;
+}
+
+

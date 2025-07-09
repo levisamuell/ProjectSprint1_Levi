@@ -1,0 +1,44 @@
+Prompt 1
+Prompt: “How can I use Flexbox to space out the header title and nav links?”
+
+AI Response Summary: Use display: flex, justify-content: space-between, align-items: center.
+
+My Implementation: Used that layout in the header, added padding for structure.
+
+Reflection: Great foundational prompt — helped me understand Flexbox for header layout.
+
+Prompt 2
+Prompt: “What’s a smooth hover animation for a button using CSS?”
+
+AI Response Summary: Add transition with transform and scale on hover.
+
+My Implementation: Applied to both hero and product buttons. Looks clean and modern.
+
+Reflection: Learned how simple transitions improve user interactivity.
+
+Prompt 3
+Prompt: “How to make a responsive grid layout with product cards?”
+
+AI Response Summary: Use display: grid with auto-fit and minmax().
+
+My Implementation: Used for the .products section, cards resize on smaller screens.
+
+Reflection: This is one of the best prompts — makes layout auto-adapt to screen size.
+
+Prompt 4
+Prompt: “How to create a gradient background for a hero section?”
+
+AI Response Summary: Use background: linear-gradient(...).
+
+My Implementation: Added a purple-blue gradient to .hero.
+
+Reflection: Visually attractive; gradients make sections pop with minimal effort.
+
+Prompt 5
+Prompt: “How to style a clean footer with centered text?”
+
+AI Response Summary: Apply text-align: center and use a dark background.
+
+My Implementation: Simple but effective — footer now looks professional.
+
+Reflection: Learned how small changes in spacing and color enhance structure.
